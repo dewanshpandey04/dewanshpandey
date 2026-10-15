@@ -2,11 +2,12 @@
 
 **AI/ML Engineer | Computer Vision & Autonomous Systems**
 
-I build real-time computer-vision systems for autonomous and edge-AI applications, with hands-on work in **aerial object detection, multi-object tracking, target locking, live video pipelines, and NVIDIA Jetson deployment**.
+I build real-time computer-vision systems for autonomous and edge-AI applications, with hands-on work in **aerial object detection, multi-object tracking, target locking, automated trajectory integration, live video pipelines, and NVIDIA Jetson deployment**.
 
 ## Core Engineering Highlights
 
 - **Target Locking:** built perception-layer target-locking workflows that maintain selected-track state across live video frames.
+- **Automated Trajectory Integration:** worked on the software handoff from target-state estimation to autonomous trajectory-generation / path-planning components within the wider UAV stack.
 - **Object Detection:** trained and integrated custom YOLO-based aerial detectors with **mAP50 above 0.92** in the professional project.
 - **Multi-Object Tracking:** integrated **ByteTrack** for persistent IDs and track-state management.
 - **Real-Time Edge AI:** optimized inference pipelines achieving **50+ FPS on live UAV feeds**.
@@ -24,12 +25,13 @@ Public portfolio representation of the perception and software-integration work 
 - Real-time YOLO object detection
 - ByteTrack multi-object tracking
 - **Perception-layer target locking**
+- **Automated trajectory-generation / path-planning integration**
 - Persistent track IDs and target-state representation
 - Live camera processing
 - Edge-AI benchmarking and validation
 - Modular architecture with automated tests and CI
 
-The professional target-locking workflow maintained a selected target's tracking state across frames and exposed that state through the perception interface. The public repository demonstrates the perception, state-management, testing, and visualization layers only; proprietary vehicle-control and operational interception logic are not published.
+The professional system used target-state information as an input to the wider autonomous trajectory-planning stack. My public portfolio describes that **software integration boundary and data flow** at a high level. Proprietary guidance algorithms, control laws, vehicle actuation, and operational interception logic are not published.
 
 [View project repository](https://github.com/dewanshpandey04/automated-interceptor-drone-guidance-system)
 
@@ -54,13 +56,14 @@ Real-time aerial surveillance pipeline for live/video/network-stream inputs with
 **Languages:** Python, C++, Java, SQL  
 **Computer Vision:** YOLO, OpenCV, Object Detection, Multi-Object Tracking, ByteTrack, Target-State / Lock-State Management  
 **AI / ML:** PyTorch, TensorFlow, Scikit-learn, NumPy, Pandas  
+**Autonomous Systems:** Target-State Interfaces, Trajectory-Planning Integration, Perception-to-Autonomy Pipelines  
 **Edge AI:** NVIDIA Jetson Orin NX / Nano, Raspberry Pi 5, CUDA  
 **Tools:** Git, GitHub, Docker, CVAT, Label Studio, VS Code  
 **Domains:** UAV Perception, Autonomous Systems, Aerial Surveillance, Real-Time Tracking
 
 ## Current Focus
 
-Building production-oriented computer-vision pipelines for autonomous and embedded systems with emphasis on **real-time inference, tracking, target-state management, edge optimization, testing, and clean software architecture**.
+Building production-oriented computer-vision pipelines for autonomous and embedded systems with emphasis on **real-time inference, tracking, target-state management, trajectory-planning integration, edge optimization, testing, and clean software architecture**.
 
 ## Contact
 
