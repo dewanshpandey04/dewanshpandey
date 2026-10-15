@@ -11,7 +11,7 @@ I build real-time computer-vision software for aerial perception and embedded AI
 - Edge-AI deployment on NVIDIA Jetson and Raspberry Pi
 - Low-latency video / RTSP processing
 - Runtime metrics, benchmarking, diagnostics, and metadata pipelines
-- Modular Python software with unit tests, linting, CI, and documented architecture
+- Modular Python software with unit tests, linting, CLI smoke tests, and multi-version CI
 
 ## Selected engineering repositories
 
@@ -21,7 +21,7 @@ I build real-time computer-vision software for aerial perception and embedded AI
 
 [Repository](https://github.com/dewanshpandey04/automated-interceptor-drone-guidance-system)
 
-Real-time perception software built around **YOLO + ByteTrack** with typed target state, explicit perception-layer selected-track / lock-state handling, JSON telemetry output, runtime health monitoring, benchmarking, and automated quality checks.
+Real-time perception software built around **YOLO + ByteTrack** with typed target state, explicit perception-layer selected-track / lock-state handling, JSON telemetry output, runtime health monitoring, YAML/CLI configuration, benchmarking, and automated quality checks.
 
 **Implemented engineering components**
 - YOLO object-detection entry point
@@ -31,8 +31,9 @@ Real-time perception software built around **YOLO + ByteTrack** with typed targe
 - serializable `PerceptionSnapshot` interface
 - rolling FPS / frame-time metrics
 - runtime health-state evaluation
-- YAML configuration validation
-- unit tests and GitHub Actions across Python 3.10 / 3.11 / 3.12
+- YAML runtime configuration
+- text + JSON benchmark reporting
+- syntax, lint, CLI-smoke, and unit-test CI on Python 3.10 / 3.11 / 3.12
 
 **Original project results:** ~18,000 aerial training images, custom detector mAP50 > 0.92, 70+ FPS on Jetson Orin NX, and 50+ FPS optimized live-camera inference.
 
@@ -42,7 +43,7 @@ Real-time perception software built around **YOLO + ByteTrack** with typed targe
 
 [Repository](https://github.com/dewanshpandey04/aerial-surveillance-multi-object-tracking)
 
-Real-time aerial detection and tracking software for webcam, recorded-video, and network-stream inputs with normalized track metadata, filtering, JSONL export, offline summaries, runtime metrics, and edge-deployment documentation.
+Real-time aerial detection and tracking software for webcam, recorded-video, and network-stream inputs with normalized track metadata, filtering, buffered JSONL export, offline summaries, frame-time/FPS metrics, and edge-deployment documentation.
 
 **Implemented engineering components**
 - YOLO + ByteTrack surveillance pipeline
@@ -50,10 +51,12 @@ Real-time aerial detection and tracking software for webcam, recorded-video, and
 - credential-safe RTSP/network-stream labeling
 - class/confidence metadata filtering
 - active-track and class summaries
-- JSONL metadata export
+- buffered JSONL metadata export
 - offline tracking-data summarization
-- latency / approximate FPS metrics
-- unit tests and GitHub Actions across Python 3.10 / 3.11 / 3.12
+- YAML/CLI runtime configuration
+- frame-time / approximate FPS metrics
+- text + JSON inference benchmarking
+- syntax, lint, CLI-smoke, and unit-test CI on Python 3.10 / 3.11 / 3.12
 
 **Original project results:** custom aerial detector mAP50 > 0.92 and optimized live UAV-camera inference at 50+ FPS.
 
