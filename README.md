@@ -1,81 +1,44 @@
 # Dewansh Pandey
 
-**AI/ML Engineer | Computer Vision | Autonomous Systems | Edge AI**
+**AI/ML Engineer | Computer Vision | Python Development**
 
-I build real-time computer-vision software for aerial perception and embedded AI systems, with hands-on work in **YOLO object detection, ByteTrack multi-object tracking, target-state handling, selected-track lock state, RTSP/video pipelines, CUDA, NVIDIA Jetson, and Raspberry Pi**.
+B.Tech in Computer Science & Engineering (Artificial Intelligence & Machine Learning). I build Python-based machine learning and computer vision applications, with hands-on experience in real-time video processing, object detection, multi-object tracking, and edge AI.
 
-## Engineering focus
+I am interested in **AI/ML Engineering, Computer Vision, Python Development, and Software Engineering** roles.
 
-- Real-time object detection and multi-object tracking
-- Aerial perception and autonomous-system software interfaces
-- Edge-AI deployment on NVIDIA Jetson and Raspberry Pi
-- Low-latency video / RTSP processing
-- Runtime metrics, benchmarking, diagnostics, and metadata pipelines
-- Modular Python software with unit tests, linting, CLI smoke tests, and multi-version CI
+## Technical skills
 
-## Selected engineering repositories
+- **Programming:** Python, C++, Java, SQL
+- **Machine learning:** PyTorch, TensorFlow, scikit-learn, NumPy, Pandas, deep learning, model evaluation
+- **Computer vision:** OpenCV, YOLO, ByteTrack, object detection, multi-object tracking
+- **Systems:** Linux, Git, GitHub, Docker, NVIDIA Jetson, Raspberry Pi, CUDA
+- **Video processing:** RTSP, live camera inputs, inference profiling
 
-### Automated Interceptor Drone Guidance & Perception System
+## Featured projects
 
-[![CI](https://github.com/dewanshpandey04/automated-interceptor-drone-guidance-system/actions/workflows/ci.yml/badge.svg)](https://github.com/dewanshpandey04/automated-interceptor-drone-guidance-system/actions)
+### [Aerial Surveillance & Multi-Object Tracking](https://github.com/dewanshpandey04/aerial-surveillance-multi-object-tracking)
+Python computer vision pipeline for detection and persistent multi-object tracking on video and camera streams. Focus areas include configurable inference, structured tracking metadata, and performance measurement.
 
-[Repository](https://github.com/dewanshpandey04/automated-interceptor-drone-guidance-system)
+### [Drone Perception & Simulation](https://github.com/dewanshpandey04/automated-interceptor-drone-guidance-system)
+A portfolio demonstration of real-time perception software and simulation-facing interfaces. Focus areas include YOLO detection, ByteTrack tracking, target-state representation, diagnostics, and software testing. Operational guidance and employer-owned implementations are not published here.
 
-Real-time perception software built around **YOLO + ByteTrack** with typed target state, explicit perception-layer selected-track / lock-state handling, JSON telemetry output, runtime health monitoring, YAML/CLI configuration, benchmarking, and automated quality checks.
+## Engineering interests
 
-**Implemented engineering components**
-- YOLO object-detection entry point
-- ByteTrack persistent multi-object tracking
-- `TrackState` normalization layer
-- explicit selected-track state management
-- serializable `PerceptionSnapshot` interface
-- rolling FPS / frame-time metrics
-- runtime health-state evaluation
-- YAML runtime configuration
-- text + JSON benchmark reporting
-- syntax, lint, CLI-smoke, and unit-test CI on Python 3.10 / 3.11 / 3.12
+- End-to-end ML workflows: data preparation, training, evaluation, and inference
+- Maintainable Python: modular design, tests, configuration, and documentation
+- Real-time computer vision and efficient deployment
+- Reproducible benchmarks and measurable performance
 
-**Original project results:** ~18,000 aerial training images, custom detector mAP50 > 0.92, 70+ FPS on Jetson Orin NX, and 50+ FPS optimized live-camera inference.
+## Experience and education
 
-### AI-Powered Aerial Surveillance & Multi-Object Tracking System
-
-[![CI](https://github.com/dewanshpandey04/aerial-surveillance-multi-object-tracking/actions/workflows/ci.yml/badge.svg)](https://github.com/dewanshpandey04/aerial-surveillance-multi-object-tracking/actions)
-
-[Repository](https://github.com/dewanshpandey04/aerial-surveillance-multi-object-tracking)
-
-Real-time aerial detection and tracking software for webcam, recorded-video, and network-stream inputs with normalized track metadata, filtering, buffered JSONL export, offline summaries, frame-time/FPS metrics, and edge-deployment documentation.
-
-**Implemented engineering components**
-- YOLO + ByteTrack surveillance pipeline
-- persistent track IDs and normalized `TrackRecord` objects
-- credential-safe RTSP/network-stream labeling
-- class/confidence metadata filtering
-- active-track and class summaries
-- buffered JSONL metadata export
-- offline tracking-data summarization
-- YAML/CLI runtime configuration
-- frame-time / approximate FPS metrics
-- text + JSON inference benchmarking
-- syntax, lint, CLI-smoke, and unit-test CI on Python 3.10 / 3.11 / 3.12
-
-**Original project results:** custom aerial detector mAP50 > 0.92 and optimized live UAV-camera inference at 50+ FPS.
-
-## Technical stack
-
-**Languages:** Python, C++, Java, SQL  
-**Computer Vision:** YOLO, OpenCV, Object Detection, Multi-Object Tracking, ByteTrack  
-**AI / ML:** PyTorch, TensorFlow, Scikit-learn, NumPy, Pandas  
-**Edge AI:** NVIDIA Jetson Orin NX / Nano, Raspberry Pi 5, CUDA  
-**Video / Streaming:** RTSP, live camera pipelines, OpenCV  
-**Engineering:** Git, GitHub Actions, Docker, Pytest, Ruff, YAML configuration, benchmarking  
-**Data / Annotation:** CVAT, Label Studio
-
-## Engineering practices
-
-I prefer small modules with clear responsibilities, framework-independent data models, explicit configuration, automated tests, reproducible benchmarks, CI quality gates, and documented separation between reusable source code and private deployment artifacts.
+- **AI Engineer Intern**, Vayuron Advanced System Pvt. Ltd. (May 2026–present)
+- **Trainee**, Parabit Technology Pvt. Ltd. (Sep 2023–Apr 2024)
+- **B.Tech, Computer Science & Engineering (AI & ML)**, Lakshmi Narain College of Technology, Bhopal (2023–2026)
 
 ## Contact
 
-**LinkedIn:** [Dewansh Pandey](https://www.linkedin.com/in/dewansh-pandey-9b564a317)  
-**GitHub:** [dewanshpandey04](https://github.com/dewanshpandey04)  
-**Email:** d.pandey1294@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/dewansh-pandey-9b564a317)
+- [GitHub](https://github.com/dewanshpandey04)
+- Email: d.pandey1294@gmail.com
+
+*This is a personal portfolio. Public examples are separate from confidential employer code, datasets, and deployment systems.*
