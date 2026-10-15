@@ -1,71 +1,78 @@
 # Dewansh Pandey
 
-**AI/ML Engineer | Computer Vision & Autonomous Systems**
+**AI/ML Engineer | Computer Vision | Autonomous Systems | Edge AI**
 
-I build real-time computer-vision systems for autonomous and edge-AI applications, with hands-on work in **aerial object detection, multi-object tracking, target locking, automated interception pipelines, live video processing, and NVIDIA Jetson deployment**.
+I build real-time computer-vision software for aerial perception and embedded AI systems, with hands-on work in **YOLO object detection, ByteTrack multi-object tracking, target-state handling, selected-track lock state, RTSP/video pipelines, CUDA, NVIDIA Jetson, and Raspberry Pi**.
 
-## Core Engineering Highlights
+## Engineering focus
 
-- **Automated Interception Pipeline:** worked on the end-to-end software pipeline connecting live video perception, object detection, tracking, target-state handling, target locking, and the wider autonomous UAV software stack.
-- **Target Locking:** built perception-layer target-locking workflows that maintain selected-track state across live video frames.
-- **Object Detection:** trained and integrated custom YOLO-based aerial detectors with **mAP50 above 0.92** in the professional project.
-- **Multi-Object Tracking:** integrated **ByteTrack** for persistent IDs and track-state management.
-- **Real-Time Edge AI:** optimized inference pipelines achieving **50+ FPS on live UAV feeds**.
-- **Jetson Performance:** achieved **70+ FPS on Jetson Orin NX** in the project configuration.
-- **Embedded Deployment:** worked with **NVIDIA Jetson Orin NX / Nano, Raspberry Pi 5, CUDA, RTSP, and OpenCV**.
-- **Engineering Practice:** modular code, configuration-driven pipelines, unit tests, benchmarking, CI, and documented public/private boundaries.
+- Real-time object detection and multi-object tracking
+- Aerial perception and autonomous-system software interfaces
+- Edge-AI deployment on NVIDIA Jetson and Raspberry Pi
+- Low-latency video / RTSP processing
+- Runtime metrics, benchmarking, diagnostics, and metadata pipelines
+- Modular Python software with unit tests, linting, CI, and documented architecture
 
-## Featured Projects
+## Selected engineering repositories
 
 ### Automated Interceptor Drone Guidance & Perception System
 
-Public portfolio representation of the perception and software-integration work from an automated interceptor-drone project.
+[![CI](https://github.com/dewanshpandey04/automated-interceptor-drone-guidance-system/actions/workflows/ci.yml/badge.svg)](https://github.com/dewanshpandey04/automated-interceptor-drone-guidance-system/actions)
 
-**Key work**
-- **Automated interception pipeline**
-- Real-time YOLO object detection
-- ByteTrack multi-object tracking
-- **Perception-layer target locking**
-- Persistent track IDs and target-state representation
-- Live camera processing
-- Edge-AI benchmarking and validation
-- Modular architecture with automated tests and CI
+[Repository](https://github.com/dewanshpandey04/automated-interceptor-drone-guidance-system)
 
-The professional interception pipeline connected live camera perception, object detection, multi-object tracking, target-state management, and target-locking outputs with the wider autonomous UAV software stack. The public portfolio demonstrates the perception and software-integration layers only; proprietary guidance, control, actuation, and operational interception logic are not published.
+Real-time perception software built around **YOLO + ByteTrack** with typed target state, explicit perception-layer selected-track / lock-state handling, JSON telemetry output, runtime health monitoring, benchmarking, and automated quality checks.
 
-[View project repository](https://github.com/dewanshpandey04/automated-interceptor-drone-guidance-system)
+**Implemented engineering components**
+- YOLO object-detection entry point
+- ByteTrack persistent multi-object tracking
+- `TrackState` normalization layer
+- explicit selected-track state management
+- serializable `PerceptionSnapshot` interface
+- rolling FPS / frame-time metrics
+- runtime health-state evaluation
+- YAML configuration validation
+- unit tests and GitHub Actions across Python 3.10 / 3.11 / 3.12
+
+**Original project results:** ~18,000 aerial training images, custom detector mAP50 > 0.92, 70+ FPS on Jetson Orin NX, and 50+ FPS optimized live-camera inference.
 
 ### AI-Powered Aerial Surveillance & Multi-Object Tracking System
 
-Real-time aerial surveillance pipeline for live/video/network-stream inputs with persistent multi-object tracking.
+[![CI](https://github.com/dewanshpandey04/aerial-surveillance-multi-object-tracking/actions/workflows/ci.yml/badge.svg)](https://github.com/dewanshpandey04/aerial-surveillance-multi-object-tracking/actions)
 
-**Key work**
-- YOLO + ByteTrack
-- Persistent multi-object IDs
-- Human, UAV, tank, vehicle, and ground-object detection in the professional project
-- Live camera and RTSP-style stream processing
-- FPS and latency monitoring
-- Jetson / Raspberry Pi edge deployment
-- Credential-safe stream handling
-- Unit tests and CI
+[Repository](https://github.com/dewanshpandey04/aerial-surveillance-multi-object-tracking)
 
-[View project repository](https://github.com/dewanshpandey04/aerial-surveillance-multi-object-tracking)
+Real-time aerial detection and tracking software for webcam, recorded-video, and network-stream inputs with normalized track metadata, filtering, JSONL export, offline summaries, runtime metrics, and edge-deployment documentation.
 
-## Technical Skills
+**Implemented engineering components**
+- YOLO + ByteTrack surveillance pipeline
+- persistent track IDs and normalized `TrackRecord` objects
+- credential-safe RTSP/network-stream labeling
+- class/confidence metadata filtering
+- active-track and class summaries
+- JSONL metadata export
+- offline tracking-data summarization
+- latency / approximate FPS metrics
+- unit tests and GitHub Actions across Python 3.10 / 3.11 / 3.12
+
+**Original project results:** custom aerial detector mAP50 > 0.92 and optimized live UAV-camera inference at 50+ FPS.
+
+## Technical stack
 
 **Languages:** Python, C++, Java, SQL  
-**Computer Vision:** YOLO, OpenCV, Object Detection, Multi-Object Tracking, ByteTrack, Target-State / Lock-State Management  
+**Computer Vision:** YOLO, OpenCV, Object Detection, Multi-Object Tracking, ByteTrack  
 **AI / ML:** PyTorch, TensorFlow, Scikit-learn, NumPy, Pandas  
-**Autonomous Systems:** Automated Interception Pipelines, Target-State Interfaces, Perception-to-Autonomy Integration  
 **Edge AI:** NVIDIA Jetson Orin NX / Nano, Raspberry Pi 5, CUDA  
-**Tools:** Git, GitHub, Docker, CVAT, Label Studio, VS Code  
-**Domains:** UAV Perception, Autonomous Systems, Aerial Surveillance, Real-Time Tracking
+**Video / Streaming:** RTSP, live camera pipelines, OpenCV  
+**Engineering:** Git, GitHub Actions, Docker, Pytest, Ruff, YAML configuration, benchmarking  
+**Data / Annotation:** CVAT, Label Studio
 
-## Current Focus
+## Engineering practices
 
-Building production-oriented computer-vision pipelines for autonomous and embedded systems with emphasis on **real-time inference, tracking, target-state management, automated interception software integration, edge optimization, testing, and clean software architecture**.
+I prefer small modules with clear responsibilities, framework-independent data models, explicit configuration, automated tests, reproducible benchmarks, CI quality gates, and documented separation between reusable source code and private deployment artifacts.
 
 ## Contact
 
 **LinkedIn:** [Dewansh Pandey](https://www.linkedin.com/in/dewansh-pandey-9b564a317)  
-**GitHub:** [dewanshpandey04](https://github.com/dewanshpandey04)
+**GitHub:** [dewanshpandey04](https://github.com/dewanshpandey04)  
+**Email:** d.pandey1294@gmail.com
